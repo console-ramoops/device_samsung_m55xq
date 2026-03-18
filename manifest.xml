@@ -660,16 +660,6 @@
         <fqname>@2.0::ISehDrk/default</fqname>
     </hal>
     <hal format="hidl" override="true">
-        <name>vendor.samsung.hardware.security.sem</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISehSem</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ISehSem/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
         <name>vendor.samsung.hardware.security.skpm</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -679,18 +669,6 @@
         </interface>
         <fqname>@1.0::ISehSkpm/default</fqname>
     </hal>
-    <hal format="hidl">
-    <name>vendor.samsung.hardware.snap</name>
-    <transport>hwbinder</transport>
-    <version>1.0</version>
-    <interface>
-        <name>ISehSnap</name>
-        <instance>default</instance>
-        <instance>secsnap</instance>
-    </interface>
-    <fqname>@1.0::ISehSnap/default</fqname>
-    <fqname>@1.0::ISehSnap/secsnap</fqname>
-</hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.sysinput</name>
         <transport>hwbinder</transport>

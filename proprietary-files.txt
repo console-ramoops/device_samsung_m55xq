@@ -2670,10 +2670,10 @@ vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.securesnap-service
 vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.hermes-service
-vendor/bin/hw/vendor.samsung.hardware.security.sem@1.0-service
+#vendor/bin/hw/vendor.samsung.hardware.security.sem@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.security.widevine.keyprov-service
-vendor/bin/hw/vendor.samsung.hardware.snap-service
+#vendor/bin/hw/vendor.samsung.hardware.snap-service
 vendor/bin/hw/vendor.samsung.hardware.sysinput@1.3-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service
 vendor/bin/hw/vendor.samsung.hardware.tlc.kg-service
@@ -2874,11 +2874,11 @@ vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.hdcp.wifidisplay-default.rc
 vendor/etc/init/vendor.samsung.hardware.security.hermes.rc
 vendor/etc/init/vendor.samsung.hardware.security.rtts-service.rc
-vendor/etc/init/vendor.samsung.hardware.security.sem@1.0-service.rc
+#vendor/etc/init/vendor.samsung.hardware.security.sem@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.vaultkeeper-service.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc
-vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc
+#vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc
 vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc
 vendor/etc/init/vendor.samsung.hardware.tlc.kg-service.rc
@@ -2976,7 +2976,7 @@ vendor/etc/vintf/manifest/vendor.samsung.hardware.security.rtts-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.vaultkeeper-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.widevine.keyprov-service.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_31.xml
-vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml
+#vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.tlc.kg-manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.vibrator-default.xml
@@ -3009,7 +3009,6 @@ vendor/etc/golden_cali_config.xml
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/hqm_device.xml
 vendor/etc/init.qti.fm.sh
-vendor/etc/linker.config.pb
 vendor/etc/microphone_characteristics.xml
 vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
@@ -3745,11 +3744,11 @@ vendor/lib64/vendor.samsung.hardware.security.fkeymaster-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.hdcp.wifidisplay-V2-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.rtts-V1-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.security.sem@1.0.so
+#vendor/lib64/vendor.samsung.hardware.security.sem@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.skpm@1.0.so
 vendor/lib64/vendor.samsung.hardware.security.vaultkeeper-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprov-V1-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so
+#vendor/lib64/vendor.samsung.hardware.snap-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.0.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.1.so
 vendor/lib64/vendor.samsung.hardware.sysinput@1.2.so

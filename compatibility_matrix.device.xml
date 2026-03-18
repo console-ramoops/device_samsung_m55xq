@@ -1614,15 +1614,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.samsung.hardware.snap</name>
-        <version>1.0</version>
-        <interface>
-            <name>ISehSnap</name>
-            <instance>default</instance>
-            <instance>secsnap</instance>
-        </interface>
-    </hal>
     <hal format="aidl" optional="true">
         <name>vendor.samsung.hardware.security.ssu</name>
         <interface>

@@ -72,15 +72,8 @@ TARGET_COPY_OUT_VENDOR_RAMDISK := vendor
 AB_OTA_UPDATER := false
 
 BOARD_ROOT_EXTRA_FOLDERS += \
-    carrier \
     efs \
-    metadata \
-    misc \
-    omr \
-    optics \
-    prism \
-    spu \
-    dqmdbg
+    metadata
 
 # Platform
 TARGET_BOARD_PLATFORM := taro

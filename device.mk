@@ -86,5 +86,22 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/samsung
 
+# IMS
+PRODUCT_PACKAGES += \
+    Iwlan \
+    QualifiedNetworksService \
+    PhhIms
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.dbg.allow_ims_off=1
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/m55xq/m55xq-vendor.mk)

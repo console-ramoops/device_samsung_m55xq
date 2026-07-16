@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2022, The LineageOS Project
+** Copyright 2023, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,6 +17,6 @@
 */
 -->
 <resources>
-    <!-- The package name of the IMS MMTEL implementation (PhhIms) -->
-    <string name="config_ims_mmtel_package" translatable="false">me.phh.ims</string>
+    <!-- The radius of the UDFPS enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">70</integer>
 </resources>

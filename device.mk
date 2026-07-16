@@ -103,5 +103,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
 
+# UDFPS
+$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/m55xq/m55xq-vendor.mk)

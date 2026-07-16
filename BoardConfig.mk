@@ -151,5 +151,8 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
+# Vendor properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit the proprietary files
 include vendor/samsung/m55xq/BoardConfigVendor.mk
